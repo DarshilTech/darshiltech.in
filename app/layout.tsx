@@ -91,11 +91,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    apple: '/apple-icon.png',
+    icon: [{ url: '/logo_icon.png', type: 'image/png' }],
+    shortcut: '/logo_icon.png',
   },
   manifest: '/manifest.webmanifest',
   category: 'technology',
