@@ -34,7 +34,7 @@ const ROW_2 = [
 const STATS = [
   { value: `${ROW_1.length + ROW_2.length}`, label: 'Technologies' },
   { value: '4', label: 'Domains' },
-  { value: '8+', label: 'Years in production' },
+  { value: '4+', label: 'Years in production' },
   { value: '100%', label: 'Open standards' },
 ];
 
