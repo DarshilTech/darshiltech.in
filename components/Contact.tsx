@@ -30,7 +30,7 @@ export default function Contact() {
       <div className="grid md:grid-cols-3 gap-6 max-w-[760px] mx-auto mt-16 border-t border-line pt-10">
         <Channel label="// Direct" value={<a href="mailto:info@darshiltech.in" className="hover:text-accent transition-colors">info@darshiltech.in</a>} />
         <Channel label="// Calendar" value={<a href="https://calendly.com/darshil-dgonix/30min" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Book a 30-min architecture call →</a>} />
-        <Channel label="// Location" value="Ahmedabad · Remote-first" />
+        <Channel label="// Location" value="Ahmedabad" />
       </div>
     </section>
   );
