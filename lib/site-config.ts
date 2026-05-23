@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: 'DarshilTech',
-  title: 'DarshilTech — Software Scalable Digital Commerce Systems',
+  title: 'Magento Development Services, Hyvä Theme Experts & eCommerce Solutions',
   description:
-    'DarshilTech is a solution software studio specializing in Magento, Hyvä, Golang systems, AI automation, and scalable commerce architecture. Documentation-driven development for enterprise teams.',
+    'Specialized in Magento development, Hyvä themes, custom extensions, speed optimization, headless commerce, and scalable eCommerce architecture for growing businesses and enterprise brands.',
   url: 'https://www.darshiltech.in',
   ogImage: 'https://www.darshiltech.in/og.jpg',
   author: 'Darshil Modi',
