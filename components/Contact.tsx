@@ -32,6 +32,7 @@ export default function Contact() {
         <Channel label="// Calendar" value={<a href="https://calendly.com/darshil-dgonix/30min" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Book a 30-min architecture call →</a>} />
         <Channel label="// Location" value="Ahmedabad · Remote-first" />
       </div>
+      
     </section>
   );
 }
