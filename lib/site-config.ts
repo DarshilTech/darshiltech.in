@@ -6,7 +6,7 @@ export const siteConfig = {
   url: 'https://www.darshiltech.in',
   ogImage: 'https://www.darshiltech.in/og.jpg',
   author: 'Darshil Modi',
-  email: 'hello@darshiltech.in',
+  email: 'info@darshiltech.in',
   location: 'Ahmedabad, India',
   keywords: [
     'Magento development',

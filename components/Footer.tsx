@@ -6,7 +6,7 @@ export default function Footer() {
         <span className="w-1.5 h-1.5 bg-accent rounded-full blink" style={{ boxShadow: '0 0 8px #c8ff3d' }} />
         All systems operational
       </div>
-      <div>darshiltech.in · v.2026.05</div>
+      <div>darshiltech.in · 2026</div>
     </footer>
   );
 }

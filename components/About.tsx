@@ -6,11 +6,11 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SectionLabel, SectionTitle, Italic } from './SectionPrimitives';
 
 const timeline = [
-  { year: '— 2018', title: 'First Magento builds', text: 'Started shipping enterprise Magento 2 implementations, learning where conventional builds break under real traffic.' },
-  { year: '— 2021', title: 'Hyvä & performance era', text: 'Pivoted toward Hyvä-led storefronts. Documented patterns that turned 6-second loads into sub-second experiences.' },
-  { year: '— 2023', title: 'Systems & Go services', text: 'Expanded into Golang-based microservices, headless layers, and infrastructure that scales horizontally without ceremony.' },
-  { year: '— 2025', title: 'AI automation layer', text: 'Built internal tooling around LLMs for documentation, testing, and operations — applied to client systems as a force multiplier.' },
-  { year: '— Now', title: 'DarshilTech as practice', text: 'A solution software studio operating at the intersection of architecture, performance, and pragmatic delivery.' },
+  { year: '2018', title: 'First Magento builds', text: 'Started shipping enterprise Magento 2 implementations, learning where conventional builds break under real traffic.' },
+  { year: '2021', title: 'Hyvä & performance era', text: 'Pivoted toward Hyvä-led storefronts. Documented patterns that turned 6-second loads into sub-second experiences.' },
+  { year: '2023', title: 'Systems & Go services', text: 'Expanded into Golang-based microservices, headless layers, and infrastructure that scales horizontally without ceremony.' },
+  { year: '2025', title: 'AI automation layer', text: 'Built internal tooling around LLMs for documentation, testing, and operations. Applied to client systems as a force multiplier.' },
+  { year: 'Now', title: 'DarshilTech as practice', text: 'A solution software studio operating at the intersection of architecture, performance, and pragmatic delivery.' },
 ];
 
 export default function About() {
@@ -53,7 +53,7 @@ export default function About() {
         <div>
           <p className="font-display font-light text-[22px] leading-[1.5] text-ink-dim mb-6">
             DarshilTech began as a <span className="text-ink italic">single conviction</span>: that
-            the best commerce systems aren't built by adding features — they're shaped by
+            the best commerce systems aren't built by adding features. They're shaped by
             architecture decided long before the first line of code.
           </p>
           <p className="font-display font-light text-[22px] leading-[1.5] text-ink-dim mb-6">
@@ -63,7 +63,7 @@ export default function About() {
           </p>
           <div className="flex items-center gap-4 mt-12 pt-8 border-t border-line font-mono text-[11px] text-ink-dim">
             <div className="w-8 h-px bg-accent" />
-            <div>DARSHIL.MODI — FOUNDING ENGINEER</div>
+            <div>DARSHIL.MODI · SOFTWARE ENGINEER</div>
           </div>
         </div>
 

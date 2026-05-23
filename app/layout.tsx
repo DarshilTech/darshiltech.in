@@ -91,8 +91,13 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [{ url: '/logo_icon.png', type: 'image/png' }],
-    shortcut: '/logo_icon.png',
+    icon: [
+      { url: '/logo_icon.png', type: 'image/png', sizes: '44x44' },
+      { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
+      { url: '/icon-512.png', type: 'image/png', sizes: '512x512' },
+    ],
+    shortcut: '/icon-192.png',
+    apple: '/icon-192.png',
   },
   manifest: '/manifest.webmanifest',
   category: 'technology',
@@ -116,7 +121,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://api.web3forms.com" />
         <link rel="dns-prefetch" href="https://api.web3forms.com" />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
 
         {/* JSON-LD structured data — boosts SEO + rich results */}

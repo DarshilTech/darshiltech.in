@@ -85,7 +85,7 @@ export const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: siteConfig.author,
-  jobTitle: 'Founding Engineer',
+  jobTitle: 'Software Engineer',
   worksFor: {
     '@type': 'Organization',
     name: siteConfig.name,

@@ -12,14 +12,14 @@ npm install
 cp .env.example .env.local
 ```
 
-## 2. Web3Forms — How form submissions reach hello@darshiltech.in
+## 2. Web3Forms — How form submissions reach info@darshiltech.in
 
 The contact form delivers submissions straight to your inbox via [Web3Forms](https://web3forms.com/) — no backend, no signup, free forever.
 
 ### One-time setup (takes 30 seconds):
 
 1. Go to **https://web3forms.com/**
-2. Enter `hello@darshiltech.in` in the "Create Access Key" box
+2. Enter `info@darshiltech.in` in the "Create Access Key" box
 3. Check your inbox — Web3Forms emails you an access key
 4. Open `.env.local` and paste it:
    ```
@@ -27,7 +27,7 @@ The contact form delivers submissions straight to your inbox via [Web3Forms](htt
    ```
 5. Restart the dev server: `npm run dev`
 
-That's it. Every form submission now arrives at `hello@darshiltech.in` with:
+That's it. Every form submission now arrives at `info@darshiltech.in` with:
 - Subject: `New Brief from [Name] — DarshilTech`
 - All form fields (name, email, company, engagement type, message)
 - Honeypot-protected against bots

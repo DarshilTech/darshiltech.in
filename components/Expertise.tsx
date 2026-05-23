@@ -87,7 +87,7 @@ const expertise = [
     num: '// 007',
     tag: 'Speed',
     title: 'Performance Optimization',
-    desc: 'From cache strategy to bundle splitting to database tuning — making slow systems fast and fast systems faster.',
+    desc: 'From cache strategy to bundle splitting to database tuning. Making slow systems fast and fast systems faster.',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" strokeWidth="1.2">
         <path d="M24 6 L14 28 L24 28 L20 42 L34 20 L24 20 Z" />
@@ -98,7 +98,7 @@ const expertise = [
     num: '// 008',
     tag: 'Frontier',
     title: 'Headless Commerce',
-    desc: 'Decoupled architectures with Next.js, Vue, or your framework of choice — connected to commerce engines that can keep up.',
+    desc: 'Decoupled architectures with Next.js, Vue, or your framework of choice, connected to commerce engines that can keep up.',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" strokeWidth="1.2">
         <path d="M8 16 L24 8 L40 16 L40 32 L24 40 L8 32 Z" />

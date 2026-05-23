@@ -9,7 +9,7 @@ const phases = [
   { step: 'PHASE.01 INTENT', title: 'Write the system before you build it.', desc: "Every project begins with a spec. Decisions live in markdown, not in someone's head. The document is the foundation." },
   { step: 'PHASE.02 SHAPE', title: 'Architecture precedes implementation.', desc: 'Service boundaries, data contracts, and scaling vectors get drawn before features. Clarity now saves weeks later.' },
   { step: 'PHASE.03 BUILD', title: 'Ship small, ship documented.', desc: 'Every merge updates the system map. The repo and the docs evolve as one. No undocumented surprises live in production.' },
-  { step: 'PHASE.04 LAST', title: 'Maintainability is the long game.', desc: 'Code outlives teams. We engineer for the engineer who inherits this in three years — and they should thank us.' },
+  { step: 'PHASE.04 LAST', title: 'Maintainability is the long game.', desc: 'Code outlives teams. We engineer for the engineer who inherits this in three years. They should thank us for it.' },
 ];
 
 const principles = [
@@ -87,7 +87,7 @@ export default function Philosophy() {
           ))}
         </div>
 
-        <div className="principles grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10 mt-20 pt-15 border-t border-line">
+        <div className="principles grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10 mt-10 pt-10 border-t border-line">
           {principles.map((p, i) => (
             <div key={i} className="principle">
               <div className="font-mono text-[10px] text-accent tracking-[0.15em] mb-4">{p.num}</div>

@@ -120,7 +120,7 @@ export default function ContactForm() {
         <h3 className="font-display text-3xl mb-3">Brief received.</h3>
         <p className="text-ink-dim text-sm leading-relaxed max-w-md mx-auto">
           Your message has been transmitted to{' '}
-          <span className="text-accent font-mono text-xs">hello@darshiltech.in</span>.
+          <span className="text-accent font-mono text-xs">info@darshiltech.in</span>.
           We respond within one business day.
         </p>
         <button

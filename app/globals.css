@@ -31,7 +31,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -133,4 +133,20 @@ body::after {
 .field-input:focus {
   outline: none;
   border-bottom-color: var(--accent);
+}
+
+/* Tech stack marquee */
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+.animate-marquee-left {
+  animation: marquee-left 32s linear infinite;
+}
+.animate-marquee-right {
+  animation: marquee-right 36s linear infinite;
 }
