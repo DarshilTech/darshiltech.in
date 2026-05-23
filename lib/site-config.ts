@@ -3,8 +3,8 @@ export const siteConfig = {
   title: 'DarshilTech — Software Scalable Digital Commerce Systems',
   description:
     'DarshilTech is a solution software studio specializing in Magento, Hyvä, Golang systems, AI automation, and scalable commerce architecture. Documentation-driven development for enterprise teams.',
-  url: 'https://darshiltech.in',
-  ogImage: 'https://darshiltech.in/og.jpg',
+  url: 'https://www.darshiltech.in',
+  ogImage: 'https://www.darshiltech.in/og.jpg',
   author: 'Darshil Modi',
   email: 'hello@darshiltech.in',
   location: 'Ahmedabad, India',
